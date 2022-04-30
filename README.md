@@ -13,3 +13,7 @@ You have to clone with submodules.
 `make`
 ### Run
 `./bin/spamcfs`
+
+Note: In order to bypass 429 error, open a browser, do the captcha and copy the cookie and place it "{cookie}" as an argument
+
+Example: `./bin/spamcfs "GOOGLE_ABUSE_EXEMPTION=RANDOM;SMTH=TRUE"`
